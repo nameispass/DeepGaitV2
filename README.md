@@ -25,7 +25,7 @@
   ## Repo: [OpenGait](https://github.com/ShiqiYu/OpenGait)     
 # 2. Cách chạy
   ``` data_multi_view ``` là dataset với 4 góc nhìn 000, 036, 090 và 144 với 3 ID  
-  ``` data_single_view ``` là dataset với 1 góc nhìn 090 với 8 ID 
+  ``` data_single_view ``` là dataset với 1 góc nhìn 090 với 8 ID   
 Đầu tiên, chỉnh sửa về file config tại đường dẫn: configs/deepgaitv2/DeepGaitV2_casiab.yaml  
 ở mục ``` dataset_root: your_path ```, điều chỉnh thành đường dẫn của mình.  
 Điều chỉnh ``` dataset_partition: ./datasets/CASIA-B/CASIA-B.json ```    
